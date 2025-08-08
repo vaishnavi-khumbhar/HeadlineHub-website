@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/HeadlineHub-website/static/css/main.dc4d6ff2.css",
-    "main.js": "/HeadlineHub-website/static/js/main.2fa48495.js",
+    "main.js": "/HeadlineHub-website/static/js/main.d36368be.js",
     "static/js/453.6d0e4ec0.chunk.js": "/HeadlineHub-website/static/js/453.6d0e4ec0.chunk.js",
     "index.html": "/HeadlineHub-website/index.html",
     "main.dc4d6ff2.css.map": "/HeadlineHub-website/static/css/main.dc4d6ff2.css.map",
-    "main.2fa48495.js.map": "/HeadlineHub-website/static/js/main.2fa48495.js.map",
+    "main.d36368be.js.map": "/HeadlineHub-website/static/js/main.d36368be.js.map",
     "453.6d0e4ec0.chunk.js.map": "/HeadlineHub-website/static/js/453.6d0e4ec0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.2fa48495.js"
+    "static/js/main.d36368be.js"
   ]
 }
