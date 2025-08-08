@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HeadlineHub-website/static/css/main.dc4d6ff2.css",
+    "main.js": "/HeadlineHub-website/static/js/main.a14746e5.js",
+    "static/js/453.6d0e4ec0.chunk.js": "/HeadlineHub-website/static/js/453.6d0e4ec0.chunk.js",
+    "index.html": "/HeadlineHub-website/index.html",
+    "main.dc4d6ff2.css.map": "/HeadlineHub-website/static/css/main.dc4d6ff2.css.map",
+    "main.a14746e5.js.map": "/HeadlineHub-website/static/js/main.a14746e5.js.map",
+    "453.6d0e4ec0.chunk.js.map": "/HeadlineHub-website/static/js/453.6d0e4ec0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.a14746e5.js"
+  ]
+}
