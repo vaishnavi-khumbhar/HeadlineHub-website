@@ -1,0 +1,240 @@
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "WSJ",
+      "title": "Stocks to Watch: Dow Futures Fall, Treasury Yields Rise — Live Updates - WSJ",
+      "description": null,
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-tariffs-trade-war-05-21-2025",
+      "urlToImage": null,
+      "publishedAt": "2025-05-21T09:34:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Holly Ellyatt",
+      "title": "UK inflation surges to 3.5% in April as household bills spike - CNBC",
+      "description": "The U.K.'s annual inflation rate hit 3.5% in April, coming in above analyst expectations, according to data released by the Office for National Statistics.",
+      "url": "https://www.cnbc.com/2025/05/21/uk-inflation-surges-to-hotter-than-expected-3point5percent-in-april.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108147940-1747746792775-gettyimages-2194023954-dpk_0488_jbxoiqgk.jpeg?v=1747746816&w=1920&h=1080",
+      "publishedAt": "2025-05-21T06:03:42Z",
+      "content": "The U.K.'s annual inflation rate hit 3.5% in April, coming in above analyst expectations, according to data released by the Office for National Statistics (ONS) on Wednesday.\r\nEconomists polled by Re… [+3991 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "Scott Bauer",
+      "title": "Elon Musk’s pullback from politics comes after his last big investment was a flop - AP News",
+      "description": "Wisconsin could go down as billionaire Elon Musk’s last big spend on a political campaign. And it was a flop. Musk, the richest person in the world, said Tuesday that he would be spending less on political campaigns, an announcement that came just seven weeks…",
+      "url": "https://apnews.com/article/elon-musk-wisconsin-campaign-donations-2aabeb33e70915c88bcc9ba2df3327c6",
+      "urlToImage": "https://dims.apnews.com/dims4/default/b5bd1c1/2147483647/strip/true/crop/3278x1844+0+171/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ff7%2F28%2F8f1f1478a86cf0443bfc28e14871%2F8cfd76c738f7447aa60ab8abfb95a49e",
+      "publishedAt": "2025-05-21T04:27:00Z",
+      "content": "MADISON, Wis. (AP) Wisconsin could go down as billionaire Elon Musks last big spend on a political campaign.\r\nAnd it was a flop.\r\nMusk, the richest person in the world, said Tuesday that he would be … [+6162 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Financial Times"
+      },
+      "author": "Eleanor Olcott",
+      "title": "Nvidia chief Jensen Huang condemns US chip curbs on China as ‘a failure’ - Financial Times",
+      "description": "World’s top AI semiconductor maker says export controls have accelerated Chinese rivals’ advances",
+      "url": "https://www.ft.com/content/a3fce85c-8651-4fec-ab6a-c876ec01a547",
+      "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0b90cc1f-74d3-4945-8a80-b4dd41ff7975.jpg?source=next-barrier-page",
+      "publishedAt": "2025-05-21T04:05:31Z",
+      "content": "Complete digital access to quality analysis and expert insights, complemented with our award-winning Weekend Print edition.\r\n<ul><li></li>Everything in Print<li></li>Weekday Print Edition<li></li>FT … [+202 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": null,
+      "title": "China Threatens Enforcers of US’s Huawei Curbs With Legal Action - Bloomberg.com",
+      "description": "China said it could take legal action against anyone enforcing US restrictions on using Huawei Technologies Co.’s AI chips, escalating a dispute that’s upset a tentative truce on tariffs.",
+      "url": "https://www.bloomberg.com/news/articles/2025-05-21/china-threatens-enforcers-of-us-s-huawei-curbs-with-legal-action",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i6.ZR_GJD.yc/v0/1200x800.jpg",
+      "publishedAt": "2025-05-21T02:57:00Z",
+      "content": "China said it could take legal action against anyone enforcing US restrictions on using Huawei Technologies Co.s AI chips, escalating a dispute thats upset a tentative truce on tariffs.\r\nChina believ… [+283 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Kevin Buckland and Amanda Cooper",
+      "title": "Dollar eases as traders eye Trump tax bill, G7 currency talks - Yahoo Finance",
+      "description": "The dollar fell on Wednesday, extending a two-day slide against a range of currencies, after U.S. President Donald Trump failed to convince Republican...",
+      "url": "https://finance.yahoo.com/news/dollar-defensive-traders-eye-trump-013522362.html",
+      "urlToImage": "https://media.zenfs.com/en/reuters-finance.com/123e5442d25b34ddbcedd43c08e6f840",
+      "publishedAt": "2025-05-21T01:35:00Z",
+      "content": "By Kevin Buckland and Amanda Cooper\r\nTOKYO/LONDON (Reuters) - The dollar fell on Wednesday, extending a two-day slide against a range of currencies, after U.S. President Donald Trump failed to convin… [+3857 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Michael Wayland",
+      "title": "Toyota redesigns America's top-selling RAV4 SUV to exclusively be a hybrid - CNBC",
+      "description": "Toyota Motor will offer the 2026 RAV4 only as a hybrid or plug-in hybrid, eliminating a traditional gas engine in the vehicle.",
+      "url": "https://www.cnbc.com/2025/05/20/toyota-2026-rav4-hybrid.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108148250-1747768797659-RAV4.JPG?v=1747768950&w=1920&h=1080",
+      "publishedAt": "2025-05-21T01:00:00Z",
+      "content": "PLANO, Texas The top-selling SUV in the United States will exclusively be offered as a hybrid model as part of a redesign of the RAV4 lineup, Toyota Motor announced Tuesday night.\r\nThe world's larges… [+5391 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Anniek Bao",
+      "title": "Trade tariffs bite: Japan's exports to the U.S. shrink for the first time this year - CNBC",
+      "description": "The country is among the hardest-hit by Trump's 25% tariffs on auto imports, that came into effect on April 3.",
+      "url": "https://www.cnbc.com/2025/05/21/japan-trade-data-us-tariffs-hit.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108122090-1743080172589-gettyimages-2207127999-dsc07575_tz0fetau.jpeg?v=1743080206&w=1920&h=1080",
+      "publishedAt": "2025-05-21T00:11:00Z",
+      "content": "Japan exports growth slowed for a second straight month, government data showed Wednesday, as the country reels under U.S. President Donald Trump's tariffs.\r\nExports to the U.S., Japan's second-large… [+2569 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Points Guy"
+      },
+      "author": "Sean Cudahy",
+      "title": "FAA orders airlines to cut schedules at Newark as travel woes persist - The Points Guy",
+      "description": "The Federal Aviation Administration is ordering flight schedule reductions at Newark Liberty International Airport (EWR) amid ongoing air traffic control challenges and runway construction.",
+      "url": "https://thepointsguy.com/news/faa-orders-newark-flight-reductions/",
+      "urlToImage": "https://thepointsguy.global.ssl.fastly.net/us/originals/2025/02/united-newark.jpeg",
+      "publishedAt": "2025-05-20T22:22:08Z",
+      "content": "The Federal Aviation Administration will limit flights at Newark Liberty International Airport (EWR), as travel woes at the busy New York area hub threaten to spill into the peak summer travel season… [+4796 chars]"
+    },
+    {
+      "source": {
+        "id": "politico",
+        "name": "Politico"
+      },
+      "author": "Michael Stratford",
+      "title": "GOP repeals Biden-era rule cracking down on bank mergers - Politico",
+      "description": "The rollback is the latest sign that Republican control of Washington will create a much more permissive climate for financial institutions.",
+      "url": "https://www.politico.com/live-updates/2025/05/20/congress/republicans-biden-era-bank-mergers-rule-congress-00361099",
+      "urlToImage": "https://www.politico.com/dims4/default/d7a4ae8/2147483647/resize/1200x/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fd2%2F7f%2Fae104801475d9c12a47dfa973294%2Fbourbon-tourism-kentucky-29737.jpg",
+      "publishedAt": "2025-05-20T22:14:22Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Decrypt"
+      },
+      "author": "Jose Antonio Lanz",
+      "title": "Nvidia's Future Vision: 'AI Factories' With Millions of Agents and Robots Working With Humans - Decrypt",
+      "description": "Nvidia CEO Jensen Huang shared a bold vision of the future this week, envisioning data centers turning into collaborative \"AI factories.\"",
+      "url": "https://decrypt.co/321166/nvidia-future-vision-ai-factories-agents-robots-humans",
+      "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2025/05/AI-decrypt-style-03-gID_7.png",
+      "publishedAt": "2025-05-20T21:53:22Z",
+      "content": "In brief\r\n<ul><li>Nvidia has positioned itself as an AI infrastructure company, with CEO Jensen Huang declaring that data centers are now \"AI factories\" producing valuable tokens.</li><li>NVLink Fusi… [+5027 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Investor's Business Daily"
+      },
+      "author": "REINHARDT KRAUSE, Investor's Business Daily",
+      "title": "Palo Alto Earnings Revenue Edge By Estimates, With Guidance In Line. Cybersecurity Stock Falls. - Investor's Business Daily",
+      "description": "Palo Alto stock fell after the cybersecurity firm's fiscal Q3 earnings and revenue edged by estimates while guidance met expectations.",
+      "url": "https://www.investors.com/news/technology/palo-alto-stock-panw-palo-alto-earnings-q12025/",
+      "urlToImage": "https://www.investors.com/wp-content/uploads/2018/12/stock-PaloAltoNetworks-05-shutter.jpg",
+      "publishedAt": "2025-05-20T21:06:00Z",
+      "content": "Palo Alto Networks (PANW) reported fiscal third-quarter earnings and revenue that edged by Wall Street's targets amid its push into cloud-based cybersecurity services. Guidance for Palo Alto stock me… [+2402 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Barron's"
+      },
+      "author": "Barron's",
+      "title": "CATL Goes Public in Hong Kong. The Tesla Battery Supplier Stock Is Surging While Honda Cuts Back on EVs. - Barron's",
+      "description": null,
+      "url": "https://www.barrons.com/articles/catl-hong-kong-stock-tesla-ev-battery-honda-c71a0eed",
+      "urlToImage": null,
+      "publishedAt": "2025-05-20T20:42:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "mlive.com"
+      },
+      "author": "Matt Durr | mattdurr@mlive.com",
+      "title": "Cucumbers recalled in possible Salmonella outbreak, people in 15 states sickened - MLive.com",
+      "description": "At least 26 illnesses have been reportedly linked to a Salmonella outbreak tied to the cucumbers.",
+      "url": "https://www.mlive.com/news/2025/05/cucumbers-recalled-in-possible-salmonella-outbreak-people-in-15-states-sickened.html",
+      "urlToImage": "https://www.mlive.com/resizer/v2/NEMTWSI4I5C2NKUZGJKPSVN5RY.png?auth=0fc6a766d765652a8ccd6f0c39f914275db9f7f382b7c46f10dfda00c6f4040f&width=1280&quality=90",
+      "publishedAt": "2025-05-20T20:23:00Z",
+      "content": "The Food and Drug Administration announced the recall of cucumbers because of possible Salmonella contamination. Bedner Growers, Inc. of Boynton Beach, Florida voluntarily recalled the cucumbers whic… [+1475 chars]"
+    },
+    {
+      "source": {
+        "id": "axios",
+        "name": "Axios"
+      },
+      "author": "Dan Primack",
+      "title": "Trump nears decision on U.S. Steel takeover - Axios",
+      "description": "The White House has been busy negotiating.",
+      "url": "https://www.axios.com/2025/05/20/trump-decision-us-steel-japan",
+      "urlToImage": "https://images.axios.com/k2kJ6_XlAOI-ISFUtNlHCTlZZb4=/0x0:1920x1080/1366x768/2025/05/20/1747756617282.jpg",
+      "publishedAt": "2025-05-20T20:22:27Z",
+      "content": "President Trump has opposed Nippon Steel's proposed acquisition of U.S. Steel since almost the moment it was announced. He also is fixated on signing deals that include large foreign direct investmen… [+2087 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Electrek"
+      },
+      "author": "Michelle Lewis",
+      "title": "Trump’s ‘Big, Beautiful’ bill will cause a US energy shortage – SEIA - Electrek",
+      "description": "The US solar industry warns that the House energy bill could cause an energy shortage by crushing clean energy growth, jobs, and investments.",
+      "url": "http://electrek.co/2025/05/20/trumps-big-beautiful-bill-will-cause-a-us-energy-shortage-seia/",
+      "urlToImage": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2024/12/Nexamp-community-solar.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2025-05-20T20:09:00Z",
+      "content": "Photo: Nexamp\r\nThe US solar industry just raised the alarm over the GOPs One, Big, Beautiful Bill, warning it could kneecap Americas energy future and trigger a massive power shortage in its current … [+3522 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MarketWatch"
+      },
+      "author": "William Watts",
+      "title": "Jamie Dimon warns of stock-market ‘complacency’ as investors keep shaking off bad news. Strategists see evidence he’s right. - MarketWatch",
+      "description": "Equities have roared back from April lows despite signs of unease in bond market",
+      "url": "https://www.marketwatch.com/story/jamie-dimon-says-stock-market-shows-complacency-heres-evidence-he-might-be-right-61c10aa8",
+      "urlToImage": "https://images.mktw.net/im-38792060/social",
+      "publishedAt": "2025-05-20T19:39:00Z",
+      "content": "William Watts is MarketWatch markets editor. In addition to managing markets coverage, he writes about stocks, bonds, currencies and commodities, including oil. He also writes about global macro issu… [+155 chars]"
+    },
+    {
+      "source": {
+        "id": "fortune",
+        "name": "Fortune"
+      },
+      "author": "Ben Weiss",
+      "title": "Trump’s big crypto dinner this Thursday will host 220 guests, including a Chinese billionaire—while a U.S. Senator plans to join a protest outside - Fortune",
+      "description": "An email received by the 220 invited guests touts a “once-in-a-lifetime” evening with the President.",
+      "url": "https://fortune.com/crypto/2025/05/20/trump-memecoin-dinner-us-senator-justin-sun-billionaire/",
+      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2025/05/GettyImages-2215203788-e1747765808923.jpg?resize=1200,600",
+      "publishedAt": "2025-05-20T18:51:00Z",
+      "content": null
+    }
+  ]
+}
