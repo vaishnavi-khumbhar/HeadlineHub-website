@@ -1,6 +1,6 @@
 {
-  "name": "newapp",
   "homepage": "https://vaishnavi-khumbhar.github.io/HeadlineHub-website",
+  "name": "newapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
