@@ -10,59 +10,69 @@ const News = (props) => {
   const [page, setPage] = useState(1);
   const [totalResults, setTotalResults] = useState(0);
 
-  const capitalizeFirstLetter = (string) => {
-    return string.charAt(0).toUpperCase() + string.slice(1);
+  // Use a simple CORS proxy for demo on GitHub Pages
+  const PROXY = 'https://api.allorigins.win/raw?url='; // demo only
+
+  const capitalizeFirstLetter = (string) =>
+    string.charAt(0).toUpperCase() + string.slice(1);
+
+  const buildApiUrl = (pageNum) => {
+    const apiUrl = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apikey}&page=${pageNum}&pageSize=${props.pageSize}`;
+    // always go via proxy on GH Pages
+    return `${PROXY}${encodeURIComponent(apiUrl)}`;
   };
 
   const updateNews = async () => {
-    // If API key is missing → stop and show message
-    if (!props.apikey) return;
-
+    if (!props.apikey) {
+      setLoading(false);
+      return;
+    }
     props.setProgress(10);
-    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apikey}&page=${page}&pageSize=${props.pageSize}`;
     setLoading(true);
+
     try {
-      let data = await fetch(url);
-      let parsedData = await data.json();
+      const res = await fetch(buildApiUrl(1));
+      const parsedData = await res.json();
       props.setProgress(70);
       setArticles(parsedData.articles || []);
       setTotalResults(parsedData.totalResults || 0);
-    } catch (error) {
-      console.error("Error fetching news:", error);
+      setPage(1);
+    } catch (err) {
+      console.error('Error fetching news:', err);
+    } finally {
+      setLoading(false);
+      props.setProgress(100);
     }
-    setLoading(false);
-    props.setProgress(100);
   };
 
   useEffect(() => {
     updateNews();
     // eslint-disable-next-line
-  }, []);
+  }, [props.category, props.country]);
 
   const fetchMoreData = async () => {
     if (!props.apikey) return;
 
     const nextPage = page + 1;
-    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apikey}&page=${nextPage}&pageSize=${props.pageSize}`;
     try {
-      let data = await fetch(url);
-      let parsedData = await data.json();
-      setArticles(articles.concat(parsedData.articles || []));
+      const res = await fetch(buildApiUrl(nextPage));
+      const parsedData = await res.json();
+      setArticles((prev) => prev.concat(parsedData.articles || []));
       setTotalResults(parsedData.totalResults || 0);
       setPage(nextPage);
-    } catch (error) {
-      console.error("Error fetching more news:", error);
+    } catch (err) {
+      console.error('Error fetching more news:', err);
     }
   };
 
-  // 🛑 API Key Missing Case
+  // UI when API key missing (avoid blank screen)
   if (!props.apikey) {
     return (
       <div style={{ textAlign: 'center', marginTop: '100px' }}>
         <h2>⚠️ API Key not found</h2>
         <p>
-          Please add your <code>REACT_APP_NEWS_API</code> key in the project
-          before deploying.
+          Add <code>REACT_APP_NEWS_API</code> (query string key is fine for demo)
+          or replace with a sample JSON (see notes).
         </p>
       </div>
     );
