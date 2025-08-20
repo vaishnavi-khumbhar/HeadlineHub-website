@@ -15,38 +15,62 @@ const News = (props) => {
   };
 
   const updateNews = async () => {
+    // If API key is missing → stop and show message
+    if (!props.apikey) return;
+
     props.setProgress(10);
     const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apikey}&page=${page}&pageSize=${props.pageSize}`;
     setLoading(true);
-    let data = await fetch(url);
-    props.setProgress(30);
-    let parsedData = await data.json();
-    props.setProgress(70);
-    setArticles(parsedData.articles);
-    setTotalResults(parsedData.totalResults);
+    try {
+      let data = await fetch(url);
+      let parsedData = await data.json();
+      props.setProgress(70);
+      setArticles(parsedData.articles || []);
+      setTotalResults(parsedData.totalResults || 0);
+    } catch (error) {
+      console.error("Error fetching news:", error);
+    }
     setLoading(false);
     props.setProgress(100);
   };
 
   useEffect(() => {
-   // document.title = `${capitalizeFirstLetter(props.category)} - NewsMonky`;
     updateNews();
     // eslint-disable-next-line
   }, []);
 
   const fetchMoreData = async () => {
+    if (!props.apikey) return;
+
     const nextPage = page + 1;
-    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apikey}&page=${nextPage+1}&pageSize=${props.pageSize}`;
-    let data = await fetch(url);
-    let parsedData = await data.json();
-    setArticles(articles.concat(parsedData.articles));
-    setTotalResults(parsedData.totalResults);
-    setPage(nextPage);
+    const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apikey}&page=${nextPage}&pageSize=${props.pageSize}`;
+    try {
+      let data = await fetch(url);
+      let parsedData = await data.json();
+      setArticles(articles.concat(parsedData.articles || []));
+      setTotalResults(parsedData.totalResults || 0);
+      setPage(nextPage);
+    } catch (error) {
+      console.error("Error fetching more news:", error);
+    }
   };
+
+  // 🛑 API Key Missing Case
+  if (!props.apikey) {
+    return (
+      <div style={{ textAlign: 'center', marginTop: '100px' }}>
+        <h2>⚠️ API Key not found</h2>
+        <p>
+          Please add your <code>REACT_APP_NEWS_API</code> key in the project
+          before deploying.
+        </p>
+      </div>
+    );
+  }
 
   return (
     <>
-      <h1 className="text-center" style={{ margin: '35px 0px', marginTop:'90px'}}>
+      <h1 className="text-center" style={{ margin: '35px 0px', marginTop: '90px' }}>
         Live News - Top {capitalizeFirstLetter(props.category)} Headlines 2025
       </h1>
 
@@ -90,7 +114,7 @@ News.propTypes = {
   country: PropTypes.string,
   pageSize: PropTypes.number,
   category: PropTypes.string,
-  apikey: PropTypes.string.isRequired,
+  apikey: PropTypes.string,
   setProgress: PropTypes.func.isRequired,
 };
 
